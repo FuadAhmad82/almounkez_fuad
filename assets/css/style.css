@@ -7,11 +7,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #063d95;
+  color: #000000;
 }
 
 a:hover {
-  color: #80c792;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -24,7 +24,9 @@ h6 {
   font-family: "Almarai", sans-serif;
 }
 
-
+p {
+  text-align: justify;
+}
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
@@ -372,6 +374,12 @@ h6 {
   left: 0;
   bottom: 0;
 }
+
+
+#hero2 .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
 
 #hero .carousel-item::before {
   content: "";
@@ -1206,10 +1214,22 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+.team .member:hover{
+  background-color: #063d95;
+}
+
+
+
 .team .member .member-img {
   position: relative;
   overflow: hidden;
 }
+
+
+
+
+
+
 
 .team .member .social {
   position: absolute;
@@ -1279,6 +1299,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+  direction: rtl;
+}
+
+
+
 .contact .info {
   border-top: 3px solid #063d95;
   border-bottom: 3px solid #063d95;
@@ -1586,3 +1613,24 @@ section {
 #services .btn-get-started:hover {
   background: #818181;
 }
+
+
+.par1 {
+  background-color: #f2fffe;
+}
+
+.par1 h6 {
+  color: red;
+}
+
+
+.par2 {
+  background-color: #edf0ff;
+}
+
+
+.par2 h5 {
+  color: #063d95;
+}
+
+
