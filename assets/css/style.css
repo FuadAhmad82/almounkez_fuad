@@ -1015,6 +1015,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio {
+  direction: rtl;
+}
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
