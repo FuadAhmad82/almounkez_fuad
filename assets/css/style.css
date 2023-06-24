@@ -361,6 +361,10 @@ p {
   position: relative;
 }
 
+
+
+
+
 #hero .carousel,
 #hero .carousel-inner,
 #hero .carousel-item,
@@ -627,6 +631,7 @@ section {
 }
 
 .about .content h3 {
+  color: #063d95;
   font-weight: 700;
   font-size: 28px;
 }
@@ -699,13 +704,22 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Our Clients
---------------------------------------------------------------*/
-.clients {
-  background-color: #ececec;
+
+.why-us span {
+  color:#ee3d50 ;
 }
 
+/*--------------------------------------------------------------
+# Our 
+
+--------------------------------------------------------------*/
+.clients {
+  background-color: #e4f0ff;
+}
+
+.clients span {
+  color:#ee3d50 ;
+}
 
 .clients .swiper-slide img {
   opacity: 0.5;
@@ -741,7 +755,9 @@ section {
   direction: rtl;
 }
 
-
+.services span {
+  color:#ee3d50 ;
+}
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -1015,6 +1031,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.portfolio span{
+  color:#ee3d50 ;
+}
+
 .portfolio {
   direction: rtl;
 }
@@ -1181,7 +1202,14 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+  color: #063d95;
 }
+
+.portfolio-details  hr {
+  color:#ee3d50 ;
+}
+
+
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
@@ -1209,7 +1237,15 @@ section {
 
 /*--------------------------------------------------------------
 # Team
+
+
+
 --------------------------------------------------------------*/
+
+
+.team span {
+  color:#ee3d50 ;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1637,5 +1673,7 @@ section {
 .par2 h5 {
   color: #063d95;
 }
+
+
 
 
