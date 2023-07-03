@@ -32,7 +32,6 @@
 <body>
 
 
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -57,15 +56,17 @@
               <li><a href="serv6.html">   اتمتة المستشفيات والمراكز الصحية   </a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto " href="contact.html">الاتصال بنا    </a></li>
+          <li onclick="myFunction()"><a class="nav-link scrollto " href="#" > فرص عمل      </a></li>
+          <li><a class="nav-link scrollto " href="contact.html" >الاتصال بنا    </a></li>
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
       
     </div>
-    
+
   </header><!-- End Header -->
+
 
 
 
@@ -141,7 +142,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about2.jpg"   class="img-fluid" alt="Planets" usemap="#planetmap" />
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             
@@ -150,6 +151,22 @@
               الانظمة المتجددة هي إحدى الشركات المعتمدة المختصة بأعمال التطوير الإداري و إيجاد الحلول على مستوى تكنولوجيا المعلومات وتنظيم عمل الشركات و إعادة هندسة إجراءات العمل تسعى دائما إلى خدمة زبائنها مع التركيز الواضح على الجودة العالية و العمل على التسليم في الوقت المناسب. 
             </p>
             <br>
+
+            <map name="planetmap">
+              <area shape ="rect" coords ="0,0,200,400"
+              onmouseover="writeText('تطوير حلول متكاملة للشركات')"
+              href ="index.html" target ="_blank" alt="update" />
+              
+              <area shape ="rect" coords ="200,0,400,300"
+              onmouseover="writeText(' التدريب والتخصيص لانظمة مايكروسوفت')"
+              href ="index.html" target ="_blank" alt="update" />
+              
+              <area shape ="rect" coords ="400,0,600,300"
+              onmouseover="writeText('اتمتة المنتجعات والفنادق')"
+              href ="index.html" target ="_blank" alt="update" />
+              </map>
+
+              <p id="desc" class="area1">  </p>
         </div>
         </div>
 
@@ -277,6 +294,7 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+<script src="assets/js/new.js"></script>
 
 </body>
 
